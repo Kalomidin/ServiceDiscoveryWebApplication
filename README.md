@@ -2,7 +2,7 @@
 # This is WebApplication for Service Fog Manager
 
 # What is it?
-  This is demo WebApplication for Service Fog Manager for WebEng Lab in KAIST. The WebApplication is developed using react. Developer of this WebApplication is Kalomidin Klichev.
+  This is demo WebApplication for Service Fog Manager for WebEng Lab in KAIST. The WebApplication is developed using React. Developer of this WebApplication is Kalomidin Klichev.
 
 # What it does?
   This WebApplication is Task designed. Certain tasks are registered such as "Resting Environment". When client requests for certain task to be performed then this Web Application provides with these services:
@@ -11,8 +11,12 @@
     a. Required tasks.
     
     b. Tasks that are available.
+  
+2. Information about that task.
+    
+3. Execution/Stop for specific task.
 
-2. This application has task list service where you can see tasks that are being performed.
+4. This application has task list service where you can see tasks that are being performed.
 
 # How it is designed?
   There are in total 5 Servers that WebApplication needs to interact with. This are following:
