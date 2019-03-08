@@ -20,10 +20,15 @@
 
 # How it is designed?
   There are in total 5 Servers that WebApplication needs to interact with. This are following:
+  
       1. Logging => Stores Logging information
+      
       2.ServiceSearcher => Gets request about task information and responds with the required "Services" that are needed to perform that specific task
+      
       3.ServiceProvider => Gets request about which service to be performed and what kind of service need to be performed by that service.
+      
       4.ServiceRegistry => Gets request about service information and checks whether ServiceProvider that provides that service is available or not. If available then responds with it is url, otherwise with 0 responds. In one request can be requested for more than 1 service.
+      
       5.ServiceSelector => Gets request about task and services that are available. Responds with tasks that are needed to be performed.
   
   The main part of the WebApplication is performed when task is requested to perform. When certain task requested to perform, following actions happen:
